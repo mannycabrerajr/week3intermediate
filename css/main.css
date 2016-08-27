@@ -1,0 +1,211 @@
+* {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	outline:: none;	
+	
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #2d2d2d;	
+}
+
+.pinkColor {
+	color: #e68a95;	
+}
+
+/** NAVIGATION **/
+
+nav {
+	min-height: 100px;
+	background-color: #ececec;	
+}
+
+nav .logoLeft {
+	margin: 20px 15px;	
+	display: inline-block;
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	font-size: 22px;
+	padding: 20px 0;
+	color: #2d2d2d;
+	margin-left: 25px;
+}
+
+nav ul.siteNav{
+	float: right;
+	margin: 20px 10px;
+	color: #2d2d2d;	
+}
+
+nav li {
+	display:inline-block;
+	margin: 30px 20px;	
+}
+
+nav li a {
+	text-decoration: none;	
+	color: #2d2d2d;
+}
+
+nav hr {
+	border: 1px solid #2d2d2d;
+	width: 98%;
+	margin: 0 auto;
+}
+
+/** HEADER **/
+
+header {
+	text-align: center;	
+	background-color: #ececec;
+}
+
+header h1 {
+	padding: 50px 0 10px 0;
+	font-size: 30px;
+}
+
+header p {
+	margin-bottom: 50px;
+}
+
+header img {
+	margin-bottom: 20px;	
+}
+
+/** PERSONAL INFO **/
+#personalInfo {
+	padding-bottom: 50px;
+	background-color: #ececec;
+}
+
+#personalInfo #about {
+	padding: 20px;
+	width: 40%;	
+	display: inline-block;
+	margin-left: 35px;
+}
+
+#personalInfo #work {
+	padding: 20px;
+	width: 40%;	
+	float: right;
+	margin-right: 30px;
+}
+
+#personalInfo #about h2,
+#personalInfo #work h2 {
+	font-family: 'Pacifico', cursive;
+	font-weight: normal;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+#personalInfo #about p,
+#personalInfo #work p {
+	text-align: left;	
+}
+
+/** PHOTOGRAPHY **/
+#photography {
+	background-color: #ececec;
+}
+
+#photography a {
+	text-decoration: none;	
+}
+
+#photography p {
+	font-family: 'Roboto', sans-serif;
+	color: #2d2d2d;	
+	padding: 5px 10px;
+}
+
+#photography #row {
+	text-align: center;
+}
+
+#photography span.pinkColor {
+	padding: 10px;
+	font-family: 'Pacifico', cursive;	
+}
+
+#photography .photoBox {
+	height: 275px;
+	width: 200px;
+	border-radius: 4px;
+	background-color: #fff;
+	display: inline-block;
+	margin: 1% 1%;
+	text-align: left;
+}
+
+#photography h2 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+	padding: 60px 0 30px 0;
+}
+
+/** FOOTER **/
+#contact {
+	background-color: #2d2d2d;
+	height: 100%;
+}
+
+#info h2 {
+	font-family: 'Pacifico', cursive;
+	font-size: 22px;
+	display: inline-block;
+}
+
+#contact #info {
+	padding: 20px 0;
+	width: 80%;	
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#contact #social {
+	float: right;
+	margin: 165px 15px 0 0;
+}
+
+form > input, 
+form > textarea {
+	background-color: #ececec;
+	border-radius: 2px;
+	border: 1px solid #f6f9f9;
+	color: #2d2d2d;
+	font-size: 16px;
+	margin: 10px 0;
+	padding: 10px;
+	width: 40%;
+	display: block;
+
+}
+
+form button {
+	background-color: transparent;
+	color: #ececec;
+}
+
+#social a {
+	border-radius: 100px;
+	background-color:  #e68a95;
+	color: #2d2d2d;
+	margin: 5px;
+	text-decoration: none;
+	padding: 3px;
+}
+
+
+
+
+
+
+
+
+
